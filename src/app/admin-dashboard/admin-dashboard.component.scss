@@ -1,0 +1,59 @@
+@media (max-width: 560px) {
+  .size-container-table {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 654px) {
+  .gradesOrder {
+    padding: 1.5rem !important;
+  }
+}
+
+.widthShowGreades {
+  background: gray;
+  z-index: 1;
+  border-radius: 11px;
+  padding: 5px;
+  width: 115px;
+}
+
+.gradesOrder {
+  padding: 0.25rem;
+}
+
+.sizeOfFont {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+thead th {
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 15px;
+
+  span {
+    visibility: hidden;
+  }
+
+  &.active {
+    color: #000;
+
+    span {
+      visibility: visible;
+    }
+  }
+}
+
+.button-to-update {
+  position: relative;
+}
+
+angular2csv {
+  margin: auto;
+  display: block;
+  width: 50px;
+}

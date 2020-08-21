@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  .table-container-customize {
+    padding: 0 !important;
+    width: 100%;
+  }
+  .sizeOfFont {
+    padding: 4px;
+  }
+}
+
+.sizeOfFont {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.widthShowGreades {
+  background: gray;
+  z-index: 1;
+  border-radius: 11px;
+  padding: 5px;
+  width: 115px;
+}
